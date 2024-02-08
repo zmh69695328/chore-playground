@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import Table from './components/Table.vue'
+import Father from './components/attrs/Father.vue'
 </script>
 
 <template>
   <Table></Table>
   <HelloWorld msg="Vite + Vue" />
+  <Father msg="hello"></Father>
 </template>
 
 <style scoped>
