@@ -42,6 +42,43 @@ importers:
         specifier: ^2.6.14
         version: 2.7.16
 
+  vue2:
+    dependencies:
+      core-js:
+        specifier: ^3.8.3
+        version: 3.35.1
+      demo-zhijian:
+        specifier: workspace:*
+        version: link:../packages/demo-zhijian
+      vue:
+        specifier: ^2.6.14
+        version: 2.7.16
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.12.16
+        version: 7.23.9
+      '@babel/eslint-parser':
+        specifier: ^7.12.16
+        version: 7.23.10(@babel/core@7.23.9)(eslint@7.32.0)
+      '@vue/cli-plugin-babel':
+        specifier: ~5.0.0
+        version: 5.0.8(@vue/cli-service@5.0.8)(core-js@3.35.1)(vue@2.7.16)
+      '@vue/cli-plugin-eslint':
+        specifier: ~5.0.0
+        version: 5.0.8(@vue/cli-service@5.0.8)(eslint@7.32.0)
+      '@vue/cli-service':
+        specifier: ~5.0.0
+        version: 5.0.8(vue-template-compiler@2.7.16)(vue@2.7.16)
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-plugin-vue:
+        specifier: ^8.0.3
+        version: 8.7.1(eslint@7.32.0)
+      vue-template-compiler:
+        specifier: ^2.6.14
+        version: 2.7.16
+
 packages:
 
   /@aashutoshrathi/word-wrap@1.2.6:

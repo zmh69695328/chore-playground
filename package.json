@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo-zhijian":"pnpm run -C packages/demo-zhijian lib",
+    "vue2-dev":"pnpm run -C vue2 serve"
   },
   "keywords": [],
   "author": "",
